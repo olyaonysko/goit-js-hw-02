@@ -20,4 +20,6 @@ for (const number of numbers) {
 
 if (numbers.length > 0) {
   alert(`Загальна сума чисел дорівнює ${total}`);
+} else {
+  console.log("Програма завершена, так як Ви ні разу не ввели число.");
 }
