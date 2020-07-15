@@ -14,11 +14,10 @@ do {
   }
 } while (input !== null);
 
-for (const number of numbers) {
-  total += number;
-}
-
-if (numbers.length > 0) {
+if (numbers.length) {
+  for (const number of numbers) {
+    total += number;
+  }
   alert(`Загальна сума чисел дорівнює ${total}`);
 } else {
   console.log("Програма завершена, так як Ви ні разу не ввели число.");
